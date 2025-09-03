@@ -9,7 +9,21 @@ import 'package:projectRollDiceApp/styled_text.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      home: Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(255, 116, 223, 255),
+                Color.fromARGB(255, 185, 134, 255),
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: const Center(child: Text('Hello World!')),
+        ),
+      ),
     ),
   );
 }
