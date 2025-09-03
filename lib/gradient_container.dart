@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class GradientContainer extends StatelessWidget {
-  const GradientContainer({super.key});
+class GradientContainer1 extends StatelessWidget {
+  const GradientContainer1({super.key});
   final startAlignment = Alignment.topLeft;
   final endAlignment = Alignment.bottomRight;
 
