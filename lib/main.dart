@@ -7,7 +7,16 @@ import 'package:projectRollDiceApp/styled_text.dart';
 // }
 
 void main() {
-  runApp(const MaterialApp(home: Scaffold(body: GradientContainer())));
+  runApp(
+    const MaterialApp(
+      home: Scaffold(
+        body: GradientContainer(
+          Color.fromARGB(255, 116, 223, 255),
+          Color.fromARGB(255, 185, 134, 255),
+        ),
+      ),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -51,7 +60,7 @@ class MyApp extends StatelessWidget {
                 onPressed: RollDice,
                 child: const Text('Roll Dice'), // 這裡用 child
               ),
-              GradientContainer(),
+              //GradientContainer(),
             ],
           ),
         ),
