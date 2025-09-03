@@ -2,8 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:projectRollDiceApp/gradient_container.dart';
 import 'package:projectRollDiceApp/styled_text.dart';
 
+// void main() {
+//   runApp(MyApp());
+// }
+
 void main() {
-  runApp(MyApp());
+  runApp(
+    MaterialApp(
+      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
